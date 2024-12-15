@@ -98,3 +98,22 @@ li {
 .navigate-btn:hover {
     background-color: #ff4c4c;
 }
+
+.h-navigate-btn {
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    background-color: #ff6f61;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.h-navigate-btn:hover {
+    background-color: #ff4c4c;
+}
