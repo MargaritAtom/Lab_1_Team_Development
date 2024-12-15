@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор расходов на Рождество</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="navigateButton" class="navigate-btn">🌲Merry Christmas!</button>
+        <h1>Калькулятор расходов на Рождество</h1>
+        <div class="input-group">
+            <input type="text" id="expenseName" placeholder="Название расхода" />
+            <input type="number" id="expense" placeholder="Сумма" />
+            <button id="addExpense">Добавить</button>
+        </div>
+        <div class="total">
+            <h2>Общие расходы: <span id="totalAmount">0</span> ₽</h2>
+        </div>
+        <ul id="expenseList"></ul>
+        <button id="musicToggle" class="music-btn">Включить музыку🎵</button>
+        <audio id="music" src="https://archive.org/download/dean-martin-let-it-snow-let-it-snow-let-it-snow/Dean%20Martin%20-%20Let%20It%20Snow%21%20Let%20It%20Snow%21%20Let%20It%20Snow%21.mp3"></audio>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
